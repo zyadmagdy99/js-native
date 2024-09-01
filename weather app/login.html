@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-black nb">
+        <div class="container-fluid">
+          <a class="navbar-brand ps-5" href="#"><div class="d-flex text-white log">
+            <div> <img class="w-100  pe-4" src="img/logo.png" alt="logo"></div>
+            <div class="d-flex flex-column">
+                <h6>weather</h6>
+                <p>tagline goes here</p>
+            </div>
+          </div></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item pe-5 ">
+                <a class="nav-link active home rounded-5 nv" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item pe-5">
+                <a class="nav-link active text-white nv" aria-current="page" href="#">News</a>
+              </li>
+              <li class="nav-item pe-5">
+                <a class="nav-link active text-white nv" aria-current="page" href="#">Live cameras</a>
+              </li>
+              <li class="nav-item pe-5">
+                <a class="nav-link active text-white nv" aria-current="page" href="#">Photo</a>
+              </li>
+              <li class="nav-item pe-5">
+                <a class="nav-link active text-white nv" aria-current="page" href="#">Contact</a>
+              </li>
+             
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid homepage">
+        <div class="row justify-content-center align-items-center position-relative">
+          <input id="findd" class="form-control form-control-lg w-75 mt-5 bg-dark rounded-5 search text-white"  type="text" placeholder="Find your location ..." aria-label="readonly input example">
+          <button type="button" class="btn btn-primary find rounded-5">find</button>
+
+          <div class="grid text-light w-75 position-absolute tabl">
+            <div class="first d-flex justify-content-around align-items-center">
+              <p id="sat">saturday</p>
+              <p id="mon">22june</p>
+            </div>
+            <div class="sec d-flex justify-content-center align-items-center">
+              <p id="nd">sunday</p>
+            </div>
+            <div class="third d-flex justify-content-center align-items-center"><p id="time">monday</p></div>
+            <div class="four d-flex flex-column ps-3">
+              <div id="cityy" class="city">cairo</div>
+              <div class="d-flex">
+                <div id="temp" class="deg">32.3°c</div>
+              </div>
+              <div>                <div><img id="sun" class="ms-5" src="img/116 (1).png" alt="c"></div>
+            </div>
+              <div id="condition" class="text-primary">Clear</div>
+              <div class="d-flex mt-3"><div class="d-flex me-4"><i class="fa-solid fa-umbrella me-1"></i> <p id="rain">20%</p></div>
+              <div class="d-flex me-4"><i class="fa-solid fa-wind me-1"></i> <p id="windk">18km/h</p></div>
+              <div class="d-flex me-4"><i class="fa-solid fa-compass me-1"></i> <p id="windd">east</p></div>
+            </div>
+            </div>
+            <div class="five d-flex flex-column justify-content-center align-items-center">
+              <div><img src="img/113.png" alt=""></div>
+              <div class="mt-4 fs-2 fw-bolder">40.9c</div>
+              <div>27.1</div>
+              <div class="text-primary">sunny</div>
+            </div>
+            <div class="six d-flex flex-column justify-content-center align-items-center">
+              <div><img src="img/113.png" alt=""></div>
+              <div class="mt-4 fs-2 fw-bolder">40.9c</div>
+              <div>27.1</div>
+              <div class="text-primary">sunny</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid tail mt-5">
+        <div class="row mt-5">
+          <div class="d-flex  align-items-center justify-content-around mt-5">
+          <div class="sub">          <input class="form-control form-control-lg mt-5 bg-dark rounded-5 search"  type="text" placeholder="Enter your email to subsucribe ..." aria-label="readonly input example">          </div>
+          <button type="button" class="btn btn-primary subscripe rounded-5">subscribe</button>
+
+          <div class="lo mt-5 ms-5 ps-5"><i class="fa-brands fa-facebook text-primary fs-3 pe-1"></i>
+            <i class="fa-brands fa-twitter fs-3 text-primary pe-1"></i>
+            <i class="fa-brands fa-google fs-3 text-primary pe-1"></i>
+            <i class="fa-brands fa-pinterest fs-3 text-primary pe-1"></i>
+          </div>
+        </div>
+        </div>
+        <p class="cr">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+      </div>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="js.js"></script>
+
+</body>
+</html>

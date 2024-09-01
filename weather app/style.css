@@ -1,0 +1,107 @@
+body{
+    background-color: #1E202B;
+}
+.log{
+    p{
+        font-size: 10px;
+    }
+}
+.nb{
+    height:130px ;
+}
+.home{
+    color: #009ad8 !important; 
+    border: #009ad8 solid;
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px
+}
+.homepage{
+    background-image: url(img/banner.png);
+    height: 60vh;
+}
+.search::placeholder{
+    color: rgb(147, 154, 154);
+}
+.find{
+    width: 100px;
+    background-color: #009ad8 !important ;
+    position: relative;
+    top: 24px;
+    right: 105px;
+}
+.grid{
+    display: grid;
+    grid-template-areas: 
+    "first sec third"
+    "four five six"
+    ;
+}
+.first{
+    grid-area: first;
+    background-color: #2D303D ;
+}
+.sec{
+    grid-area: sec ;
+    background-color:#222530 ;
+}
+.third{
+    grid-area: third ;
+    background-color: #2D303D;
+}
+.four{
+    grid-area: four ;
+    background-color: #323544 ;
+}
+.five{
+    grid-area: five ;
+    background-color: #262936 ;
+}
+.six{
+    grid-area: six ;
+    background-color: #323544 ;
+}
+.tabl{
+    height: 280px;
+    top: 130px;
+}
+.city{
+    color: #cdced4;
+    font-size: 20px;
+}
+.deg{
+    font-size: 80px;
+    font-weight: 800;
+}
+.tail{
+    height: 200px;
+    background-color: #262936;
+}
+.sub{
+    width: 60%;
+}
+.lo{
+    width: 30%;
+    padding: 10px;
+}
+.cr{
+    position: relative;
+    top: 20px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+.lo i:hover{
+
+}
+.subscripe{
+    position: relative;
+    top:25px;
+    right: 100px;
+}
+.nv:hover{
+    color: #009ad8!important;
+    border: #009ad8 solid;
+    border-radius:50% ;
+}
